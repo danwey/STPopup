@@ -954,4 +954,10 @@ static NSMutableSet *_retainedPopupControllers;
     }
 }
 
+//wei add
+- (NSUInteger) viewControllerSize
+{
+    return _viewControllers.count;
+}
+
 @end
