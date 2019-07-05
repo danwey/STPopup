@@ -193,6 +193,9 @@ typedef NS_ENUM(NSUInteger, STPopupTransitionStyle) {
  */
 - (void)setNavigationBarHidden:(BOOL)navigationBarHidden animated:(BOOL)animated;
 
+//wei add
+- (NSUInteger) viewControllerSize;
+
 @end
 
 NS_ASSUME_NONNULL_END
