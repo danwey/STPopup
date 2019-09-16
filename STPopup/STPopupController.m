@@ -141,7 +141,6 @@ static NSMutableSet *_retainedPopupControllers;
     if (self = [self init]) {
         [self pushViewController:rootViewController animated:NO];
         self.navigationBarHidden = true
-        self.containerView.backgroundColor = UIColor.bbgBackgroud
         self.containerView.layer.cornerRadius = 5.0
     }
     return self;
