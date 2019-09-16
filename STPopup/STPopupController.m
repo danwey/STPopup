@@ -140,8 +140,8 @@ static NSMutableSet *_retainedPopupControllers;
 {
     if (self = [self init]) {
         [self pushViewController:rootViewController animated:NO];
-        self.navigationBarHidden = true
-        self.containerView.layer.cornerRadius = 5.0
+        self.navigationBarHidden = true;
+        self.containerView.layer.cornerRadius = 5.0;
     }
     return self;
 }
